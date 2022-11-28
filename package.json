@@ -1,0 +1,19 @@
+{
+  "name": "ts-game-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "concurrently \"lite-server\" \"tsc -w\""
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "concurrently": "^6.2.1",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
